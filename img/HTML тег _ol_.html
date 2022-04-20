@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-56G6JZ3');</script>
+	<!-- End Google Tag Manager -->
+	<meta charset="utf-8">
+	<title>HTML тег &lt;ol&gt;</title>
+	<meta name="description"
+	      content=" HTML тег &lt;ol&gt; используется для создания нумерованного списка. Описание тега, атрибуты и пример использования. ">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="apple-touch-icon" href="/images/logos/192.png">
+	<meta name="theme-color" content="#42444e">
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+			<link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito&display=optional"
+		      as="style">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=optional">
+
+		<link rel="preload"
+		      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=optional"
+		      as="style">
+		<link rel="stylesheet"
+		      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=optional">
+	
+			<link rel="preload" href="/build/images/logo-color-w3.png" as="image">
+	
+					
+				<link rel="canonical" href="https://ru.w3docs.com/uchebnik-html/html-teg-ol.html" />
+	
+	<meta property="og:url"
+	      content="https://ru.w3docs.com/uchebnik-html/html-teg-ol.html" />
+
+		<link rel="alternate" href="https://www.w3docs.com/learn-html/html-ol-tag.html" hreflang="en" />
+
+							<link rel="alternate" href="https://www.w3docs.com/learn-html/html-ol-tag.html" hreflang="x-default" />
+					<link rel="alternate" href="https://fr.w3docs.com/apprendre-html/html-teg-ol.html" hreflang="fr" />
+
+					<link rel="alternate" href="https://de.w3docs.com/html-lernen/html-tag-ol.html" hreflang="de" />
+
+					<link rel="alternate" href="https://ru.w3docs.com/uchebnik-html/html-teg-ol.html" hreflang="ru" />
+
+							<meta property="og:type" content="article" />
+	<meta property="og:title" content="HTML тег &lt;ol&gt;" />
+	<meta property="og:description"
+	      content=" HTML тег &lt;ol&gt; используется для создания нумерованного списка. Описание тега, атрибуты и пример использования. " />
+	<meta property="og:image"
+	      content="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@w3docs" />
+	<meta name="twitter:title"
+	      content="HTML тег &lt;ol&gt;" />
+	<meta name="twitter:description"
+	      content=" HTML тег &lt;ol&gt; используется для создания нумерованного списка. Описание тега, атрибуты и пример использования. " />
+	<meta name="twitter:image"
+	      content="https://ru.w3docs.com/uploads/media/book_gallery/0001/02/849d4286475e04155fd5f21861f16f53db95ac72.png" />
+
+				<link rel="stylesheet" href="/build/css/tailwind.f1004b28.css">
+	
+	<style>@media (min-width: 962px) {
+  .responsive-image {
+    width: 420px;
+  }
+}</style>
+
+				<script src="/build/runtime.fc34b0e1.js" defer></script><script src="/build/app.4f572e26.js" defer></script>
+	
+																																																									<script src="/build/js/feedback.047f546b.js" defer></script>
+
+	
+	</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56G6JZ3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="font-nunito">
+	<div class="fixed w-full h-16 bg-blue-steel text-white flex justify-center z-50 border-b border-gray-700 print:hidden">
+		<header class="container flex justify-between max-w-6xl items-center px-4"><a aria-label="logo" href="/"><img src="/build/images/logo-color-w3.png" alt="w3docs logo" width="146" height="41"  /></a><form role="search" action="/search" target="_top"><div><input
+						class="bg-blue-steel text-white border-solid border-0 border-b border-white outline-0 focus:ring-0 px-2 py-1"
+						type="search"
+						name="q"
+						required
+						aria-label="search input"
+						placeholder="Поиск"
+						value=""
+				/><button type="submit" aria-label="search button"></button></div></form><div class="hidden navbar lg:block"><nav><ul class="hidden md:flex md:gap-8 items-center"><li><div class="dropdown"><button class="dropbtn flex items-center hover:text-blue-500">
+								Разделы
+							</button><div class="dropdown-content bg-blue-steel text-white"><a href="/uchebnik-html.html">
+										Учебник HTML
+									</a><a href="/uchebnik-css.html">
+										Учебник CSS
+									</a></div></div></li><li><a href="/course" aria-current="page"
+						   class="nav-link text-decoration-none hover:text-blue-500 nuxt-link-exact-active nuxt-link-active"
+						>
+							Курсы
+						</a></li><li><a href="/quiz/" class="hover:text-blue-500">Тесты</a></li><li><a href="/snippets" class="hover:text-blue-500">Сниппеты</a></li><li><a href="/tool/" class="hover:text-blue-500">Инструменты</a></li></ul></nav></div></header>
+	</div>
+
+				<div class="hidden xl:block fixed bg-blue-steel text-white w-60 pt-16 h-full z-10 overflow-auto">
+			<div class="fixed h-full overflow-y-auto px-4 pb-36 pt-4">
+					<nav class="chapter-left-menu"><ul class="w-52"><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							Основы HTML
+						</strong><a href="/uchebnik-html/vvedenie-v-html.html">Введение в HTML</a><a href="/uchebnik-html/html-redaktory.html">Инструментарий</a><a href="/uchebnik-html/html-elementy.html">Элементы</a><a href="/uchebnik-html/bazovye-tegi-html.html">Базовые теги</a><a href="/uchebnik-html/html-atributy.html">Атрибуты</a><a href="/uchebnik-html/html-zagolovki.html">Заголовки</a><a href="/uchebnik-html/html-formatirovanie-teksta.html">Форматирование текста</a><a href="/uchebnik-html/html-ssylki.html">Ссылки</a><a href="/uchebnik-html/html-izobrazheniia.html">Изображения</a><a href="/uchebnik-html/html-spiski.html">Списки</a><a href="/uchebnik-html/html-tsveta.html">Цвета HTML</a><a href="/uchebnik-html/html-kommentarii.html">Комментарии</a><a href="/uchebnik-html/html-tablitsy.html">Таблицы</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML5
+						</strong><a href="/uchebnik-html/vvedenie-v-html5.html">Введение в HTML5</a><a href="/uchebnik-html/semanticheskie-elementy-html5.html">Семантические элементы HTML5</a><a href="/uchebnik-html/audio-i-video-v-html5.html">Аудио и видео</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML гайды
+						</strong><a href="/uchebnik-html/tipovye-makety-veb-stranits.html">Типовые макеты веб-страниц</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML справочник
+						</strong><a href="/uchebnik-html/html-kodirovki.html">HTML кодировки</a><a href="/uchebnik-html/html-ascii.html">ASCII</a><a href="/uchebnik-html/html-iso-8859-1.html">ISO-8859-1</a><a href="/uchebnik-html/html-kody-iazykov.html">ISO коды языков</a><a href="/uchebnik-html/kody-simvolov-utf-8.html">Коды символов UTF-8</a><a href="/uchebnik-html/html-simvoly.html">HTML Мнемоники</a><a href="/uchebnik-html/klavishi-bystrogo-dostupa.html">Клавиши быстрого доступа</a><a href="/uchebnik-html/metody-http-zaprosa.html">Методы HTTP запроса</a><a href="/uchebnik-html/kody-sostoianiia-http.html">Коды состояния HTTP</a><a href="/uchebnik-html/mime-tipy.html">MIME-типы</a><a href="/uchebnik-html/tablitsa-html-tegov.html">Таблица HTML тегов</a><a href="/uchebnik-html/xhtml.html">XHTML</a></li><li class="flex flex-col gap-1.5"><strong class="pt-9 mb-2 text-lg border-b-2 border-blue-curious font-bold">
+							HTML теги
+						</strong><a href="/uchebnik-html/globalnye-atributy.html">Глобальные атрибуты</a><a href="/uchebnik-html/atributy-sobytii.html">Атрибуты событий</a><a href="/uchebnik-html/html-teg.html">&lt;!-- ... --&gt;</a><a href="/uchebnik-html/html-deklaratsiia-doctype.html">&lt;!DOCTYPE&gt;</a><a href="/uchebnik-html/html-teg-a.html">&lt;a&gt;</a><a href="/uchebnik-html/html-teg-abbr.html">&lt;abbr&gt;</a><a href="/uchebnik-html/html-teg-acronym.html">&lt;acronym&gt;</a><a href="/uchebnik-html/html-teg-address.html">&lt;address&gt;</a><a href="/uchebnik-html/html-teg-applet.html">&lt;applet&gt;</a><a href="/uchebnik-html/html-teg-area.html">&lt;area&gt;</a><a href="/uchebnik-html/html-teg-article.html">&lt;article&gt;</a><a href="/uchebnik-html/html-teg-aside.html">&lt;aside&gt;</a><a href="/uchebnik-html/html-teg-audio.html">&lt;audio&gt;</a><a href="/uchebnik-html/html-teg-b.html">&lt;b&gt;</a><a href="/uchebnik-html/html-teg-base.html">&lt;base&gt;</a><a href="/uchebnik-html/html-teg-basefont.html">&lt;basefont&gt;</a><a href="/uchebnik-html/html-teg-bdi.html">&lt;bdi&gt;</a><a href="/uchebnik-html/html-teg-bdo.html">&lt;bdo&gt;</a><a href="/uchebnik-html/html-teg-big.html">&lt;big&gt;</a><a href="/uchebnik-html/html-teg-blink.html">&lt;blink&gt;</a><a href="/uchebnik-html/html-teg-blockquote.html">&lt;blockquote&gt;</a><a href="/uchebnik-html/html-teg-body.html">&lt;body&gt;</a><a href="/uchebnik-html/html-teg-br.html">&lt;br&gt;</a><a href="/uchebnik-html/html-teg-button.html">&lt;button&gt;</a><a href="/uchebnik-html/html-teg-canvas.html">&lt;canvas&gt;</a><a href="/uchebnik-html/html-teg-caption.html">&lt;caption&gt;</a><a href="/uchebnik-html/html-teg-center.html">&lt;center&gt;</a><a href="/uchebnik-html/html-teg-cite.html">&lt;cite&gt;</a><a href="/uchebnik-html/html-teg-code.html">&lt;code&gt;</a><a href="/uchebnik-html/html-teg-col.html">&lt;col&gt;</a><a href="/uchebnik-html/html-teg-colgroup.html">&lt;colgroup&gt;</a><a href="/uchebnik-html/html-teg-data.html">&lt;data&gt;</a><a href="/uchebnik-html/html-teg-datalist.html">&lt;datalist&gt;</a><a href="/uchebnik-html/html-teg-dd.html">&lt;dd&gt;</a><a href="/uchebnik-html/html-teg-del.html">&lt;del&gt;</a><a href="/uchebnik-html/html-teg-details.html">&lt;details&gt;</a><a href="/uchebnik-html/html-teg-dfn.html">&lt;dfn&gt;</a><a href="/uchebnik-html/html-teg-dialog.html">&lt;dialog&gt;</a><a href="/uchebnik-html/html-teg-dir.html">&lt;dir&gt;</a><a href="/uchebnik-html/html-teg-div.html">&lt;div&gt;</a><a href="/uchebnik-html/html-teg-dl.html">&lt;dl&gt;</a><a href="/uchebnik-html/html-teg-dt.html">&lt;dt&gt;</a><a href="/uchebnik-html/html-teg-em.html">&lt;em&gt;</a><a href="/uchebnik-html/html-teg-embed.html">&lt;embed&gt;</a><a href="/uchebnik-html/html-teg-fieldset.html">&lt;fieldset&gt;</a><a href="/uchebnik-html/html-teg-figcaption.html">&lt;figcaption&gt;</a><a href="/uchebnik-html/html-teg-figure.html">&lt;figure&gt;</a><a href="/uchebnik-html/html-teg-font.html">&lt;font&gt;</a><a href="/uchebnik-html/html-teg-footer.html">&lt;footer&gt;</a><a href="/uchebnik-html/html-teg-form.html">&lt;form&gt;</a><a href="/uchebnik-html/html-teg-frame.html">&lt;frame&gt;</a><a href="/uchebnik-html/html-teg-frameset.html">&lt;frameset&gt;</a><a href="/uchebnik-html/html-tegi-h1-h6.html">&lt;h1&gt;-&lt;h6&gt;</a><a href="/uchebnik-html/html-teg-head.html">&lt;head&gt;</a><a href="/uchebnik-html/html-teg-header.html">&lt;header&gt;</a></li><li class="flex flex-col gap-1.5"><a href="/uchebnik-html/html-teg-hgroup.html">&lt;hgroup&gt;</a><a href="/uchebnik-html/html-teg-hr.html">&lt;hr&gt;</a><a href="/uchebnik-html/html-teg-html.html">&lt;html&gt;</a><a href="/uchebnik-html/html-teg-i.html">&lt;i&gt;</a><a href="/uchebnik-html/html-teg-iframe.html">&lt;iframe&gt;</a><a href="/uchebnik-html/html-teg-img.html">&lt;img&gt;</a><a href="/uchebnik-html/html-teg-input.html">&lt;input&gt;</a><a href="/uchebnik-html/html-teg-ins.html">&lt;ins&gt;</a><a href="/uchebnik-html/html-teg-isindex.html">&lt;isindex&gt;</a><a href="/uchebnik-html/html-teg-kbd.html">&lt;kbd&gt;</a><a href="/uchebnik-html/html-teg-keygen.html">&lt;keygen&gt;</a><a href="/uchebnik-html/html-teg-label.html">&lt;label&gt;</a><a href="/uchebnik-html/html-teg-legend.html">&lt;legend&gt;</a><a href="/uchebnik-html/html-teg-li.html">&lt;li&gt;</a><a href="/uchebnik-html/html-teg-link.html">&lt;link&gt;</a><a href="/uchebnik-html/html-teg-main.html">&lt;main&gt;</a><a href="/uchebnik-html/html-teg-mark.html">&lt;mark&gt;</a><a href="/uchebnik-html/html-teg-map.html">&lt;map&gt;</a><a href="/uchebnik-html/html-teg-marquee.html">&lt;marquee&gt;</a><a href="/uchebnik-html/html-teg-menu.html">&lt;menu&gt;</a><a href="/uchebnik-html/html-teg-menuitem.html">&lt;menuitem&gt;</a><a href="/uchebnik-html/html-teg-meta.html">&lt;meta&gt;</a><a href="/uchebnik-html/html-meter-tag.html">&lt;meter&gt;</a><a href="/uchebnik-html/html-teg-nav.html">&lt;nav&gt;</a><a href="/uchebnik-html/html-teg-nobr.html">&lt;nobr&gt;</a><a href="/uchebnik-html/html-teg-noframes.html">&lt;noframes&gt;</a><a href="/uchebnik-html/html-teg-noscript.html">&lt;noscript&gt;</a><a href="/uchebnik-html/html-teg-object.html">&lt;object&gt;</a><a href="/uchebnik-html/html-teg-ol.html"
+							   class="text-blue-400">&lt;ol&gt;</a><a href="/uchebnik-html/html-teg-optgroup.html">&lt;optgroup&gt;</a><a href="/uchebnik-html/html-teg-option.html">&lt;option&gt;</a><a href="/uchebnik-html/html-teg-output.html">&lt;output&gt;</a><a href="/uchebnik-html/html-teg-p.html">&lt;p&gt;</a><a href="/uchebnik-html/html-teg-param.html">&lt;param&gt;</a><a href="/uchebnik-html/html-teg-plaintext.html">&lt;plaintext&gt;</a><a href="/uchebnik-html/html-teg-picture.html">&lt;picture&gt;</a><a href="/uchebnik-html/html-teg-pre.html">&lt;pre&gt;</a><a href="/uchebnik-html/html-teg-progress.html">&lt;progress&gt;</a><a href="/uchebnik-html/html-teg-q.html">&lt;q&gt;</a><a href="/uchebnik-html/html-teg-rp.html">&lt;rp&gt;</a><a href="/uchebnik-html/html-teg-rt.html">&lt;rt&gt;</a><a href="/uchebnik-html/html-teg-ruby.html">&lt;ruby&gt;</a><a href="/uchebnik-html/html-teg-s.html">&lt;s&gt;</a><a href="/uchebnik-html/html-teg-samp.html">&lt;samp&gt;</a><a href="/uchebnik-html/html-teg-script.html">&lt;script&gt;</a><a href="/uchebnik-html/html-teg-source.html">&lt;source&gt;</a><a href="/uchebnik-html/html-teg-section.html">&lt;section&gt;</a><a href="/uchebnik-html/html-teg-select.html">&lt;select&gt;</a><a href="/uchebnik-html/html-teg-small.html">&lt;small&gt;</a><a href="/uchebnik-html/html-teg-spacer.html">&lt;spacer&gt;</a><a href="/uchebnik-html/html-teg-span.html">&lt;span&gt;</a><a href="/uchebnik-html/html-teg-strike.html">&lt;strike&gt;</a><a href="/uchebnik-html/html-teg-strong.html">&lt;strong&gt;</a><a href="/uchebnik-html/html-teg-style.html">&lt;style&gt;</a><a href="/uchebnik-html/html-teg-sub.html">&lt;sub&gt;</a></li><li class="flex flex-col gap-1.5"><a href="/uchebnik-html/html-teg-summary.html">&lt;summary&gt;</a><a href="/uchebnik-html/html-teg-sup.html">&lt;sup&gt;</a><a href="/uchebnik-html/html-teg-svg.html">&lt;svg&gt;</a><a href="/uchebnik-html/html-teg-table.html">&lt;table&gt;</a><a href="/uchebnik-html/html-teg-tbody.html">&lt;tbody&gt;</a><a href="/uchebnik-html/html-teg-td.html">&lt;td&gt;</a><a href="/uchebnik-html/html-teg-template.html">&lt;template&gt;</a><a href="/uchebnik-html/html-teg-textarea.html">&lt;textarea&gt;</a><a href="/uchebnik-html/html-teg-tfoot.html">&lt;tfoot&gt;</a><a href="/uchebnik-html/html-teg-th.html">&lt;th&gt;</a><a href="/uchebnik-html/html-teg-thead.html">&lt;thead&gt;</a><a href="/uchebnik-html/html-teg-time.html">&lt;time&gt;</a><a href="/uchebnik-html/html-teg-title.html">&lt;title&gt;</a><a href="/uchebnik-html/html-teg-tr.html">&lt;tr&gt;</a><a href="/uchebnik-html/html-teg-track.html">&lt;track&gt;</a><a href="/uchebnik-html/html-teg-tt.html">&lt;tt&gt;</a><a href="/uchebnik-html/html-teg-u.html">&lt;u&gt;</a><a href="/uchebnik-html/html-teg-ul.html">&lt;ul&gt;</a><a href="/uchebnik-html/html-teg-var.html">&lt;var&gt;</a><a href="/uchebnik-html/html-teg-video.html">&lt;video&gt;</a><a href="/uchebnik-html/html-teg-wbr.html">&lt;wbr&gt;</a><a href="/uchebnik-html/html-teg-xmp.html">&lt;xmp&gt;</a></li></ul></nav>			</div>
+		</div>
+	
+	<div class="xl:ml-60 pt-16 min-h-screen">
+
+		<div class="grid grid-cols-12 gap-4">
+			<div class="col-span-12 md:col-span-9 scroll-pt-16">
+					<div class="print:text-black print:bg-white">
+						<div class="p-4 md:p-8">
+		
+		<div class="mb-4 print:hidden">
+			<script async
+			        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+			        crossorigin="anonymous"></script>
+			<!-- Horizontal Top Ad -->
+			<ins class="adsbygoogle top-ad-horizontal"
+			     style="display:inline-block"
+			     data-ad-client="ca-pub-1328390942002432"
+			     data-ad-slot="7973163710"
+			></ins>
+			<script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+		<div>
+	<div itemprop="articleBody">
+		<div class="chapter-container prose lg:prose-lg max-w-none">
+		<div class="mb-2 md:mb-0 md:border-b md:border-gray-200 pb-1 flex flex-col-reverse md:flex-row flex-wrap justify-between">
+			<h1 itemprop="name" class="font-poppins text-2xl">
+				HTML тег &lt;ol&gt;
+			</h1>
+
+			<div class="hidden md:block border-b md:border-0 border-gray-200 flex justify-end mb-3 md:mb-0 pb-2 md:pb-0 md:mb-0 items-start">
+									<a href="/uchebnik-html/html-teg-object.html"
+					   title="prev"
+					   class="chapter-top-nav btn btn-blue"
+					   aria-label="Previous Chapter">
+						❮ Назад
+					</a>
+				
+									<a href="/uchebnik-html/html-teg-optgroup.html"
+					   title="next"
+					   class="chapter-top-nav btn btn-blue ml-1.5"
+					   aria-label="Next Chapter">
+						Вперед ❯
+					</a>
+							</div>
+		</div>
+
+		
+														
+	
+	<p>HTML тег &lt;ol&gt; используется для создания <a href="/uchebnik-html/html-spiski.html">нумерованного списка,</a> который содержит элементы в определенной последовательности.</p>
+
+<p>Каждый элемент нумерованного списка начинается с тега открывающего тега,<a href="/uchebnik-html/html-teg-li.html">&lt;li&gt;</a> и заканчивается закрывающим тегом &lt;/li&gt;. Тег &lt;li&gt; помимо текста может включать в себя другие HTML-элементы (списки, изображения, заголовки, абзацы и др.).</p>
+
+<p>В качестве нумерующих элементов могут выступать следующие значения: арабские числа (1, 2, 3, ...); прописные латинские буквы (A, B, C, ...); строчные латинские буквы (a, b, c, ...); прописные римские числа (I, II, III, ...); строчные римские числа (i, ii, iii, ...). Для указания типа нумерованного списка применяется атрибут <span class="attribute">type</span>.</p>
+
+<p>Если не указывать никаких дополнительных атрибутов, то по умолчанию содержимое тега  &lt;ol&gt; нумеруется арабскими числами, начиная с единицы.</p>
+
+
+
+
+
+
+																
+	
+	<div class="alert alert-success">Если к тегу &lt;ol&gt; применяются CSS свойства, то вложенные в тег &lt;/li&gt; элементы наследуют их.</div>
+
+
+
+
+
+
+																
+	
+	<h2 id="sintaksis-3" class="scroll-mt-20"> Синтаксис </h2>
+
+
+
+
+
+
+																
+	
+	
+
+<p>Тег &lt;li&gt; парный, закрывающий тег обязателен.</p> 
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="primer-5" class="scroll-mt-20">Пример</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="HTML тег &lt;ol&gt;" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Заголовок окна веб-страницы<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Закуски<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Горячее<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Салаты<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">start</span>=<span class="hljs-string">&quot;50&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Прохладительные напитки<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Горячие напитки<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Мороженое<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;A&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Кока-кола<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Чай со льдом<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Фанта<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/2924"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Попробуйте сами!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="rezul-tat-7" class="scroll-mt-20">Результат</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/b9e0a2ecaf09a3cd7d628fb26d752a34ac15fb2b.png" width="421" height="326" alt="olexample1" layout="responsive"></div>
+
+<p>В данном примере мы использовали атрибут <span class="attribute">start</span> со значением “50”.</p>
+
+
+
+
+
+
+
+
+																
+	
+	<h2 id="css-svojstva-9" class="scroll-mt-20">CSS свойства</h2>
+
+
+
+
+
+
+																
+	
+	
+
+<p>Для определения типа нумерующих элементов вместо атрибута <span class="attribute">type</span> можно использовать CSS свойство <span class="property">list-style-type.</span></p>
+
+
+
+
+
+
+
+
+																
+	
+	<h3 id="primer-11" class="scroll-mt-20">Пример</h3>
+
+
+
+
+
+
+																
+	
+	<div class="relative mb-5" itemscope itemtype="https://schema.org/Code">
+		<meta itemprop="name" content="HTML тег &lt;ol&gt;" />
+		<div itemprop="text"><pre class="text-sm bg-gray-900 text-white p-4" style="max-height: 550px; font-size: 0.875rem; word-break: break-word;
+    word-wrap: break-word;"><code class="hljs html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Заголовок окна веб-страницы<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Примеры нумерованных списков<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: upper-roman&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Прохладительные напитки<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Горячие напитки<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Мороженое<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: hebrew&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Кока-кола<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Фанта<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Чай со льдом<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ol</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;list-style-type: decimal&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Кока-кола<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Фанта<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>Чай со льдом<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ol</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre></div>
+
+					<div class="text-right -mt-4">
+				<a
+						href="/tools/editor/2926"
+						target="_blank"
+						class="btn btn-green"
+						itemprop="url">
+					Попробуйте сами!
+				</a>
+			</div>
+		
+			</div>
+
+
+
+
+
+
+
+																
+	
+	<h3 id="rezul-tat-13" class="scroll-mt-20">Результат</h3>
+
+
+
+
+
+
+																
+	
+	
+
+
+<div class="responsive-image"><img  src="/uploads/media/default/0001/02/f2479bf5de81eb47e766e31b1dcae109b9a3cae5.png" width="421" height="381" alt="olexample2" layout="responsive"></div>
+
+
+
+
+
+
+
+
+																
+	
+	<h2 id="atributy-15" class="scroll-mt-20"> Атрибуты </h2>
+
+
+
+
+
+
+																
+	
+	
+
+<table class="table table-bordered table-striped table-header small-font text-center">
+
+    <thead>
+    <tr>
+        <th>Атрибут</th>
+        <th>Значение</th>
+        <th>Описание </th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+    <tr>
+        <td class="td-vcenter">compact</td>
+        <td class="td-vcenter">compact</td>
+        <td>Сокращает отступы и расстояния между строками.  <br/><strong class="text-danger">Не поддерживается в HTML5. Вместо него рекомендуем использовать CSS свойство line-height. </strong></td>
+    </tr>
+
+    <tr>
+        <td>reversed</td>
+        <td>reversed</td>
+        <td>Указывает, что элементы списка должны идти в порядке убывания (вместо обычного порядка по возрастанию).
+</td>
+    </tr>
+
+    <tr>
+        <td>start</td>
+        <td>number</td>
+        <td>
+Устанавливает число, с которого будет начинаться нумерованный список. Значение должно быть целым числом, могут быть использованы отрицательные значения. При использовании с буквами (type = "A" и type = "a"), число, указанное в значении атрибута, соответствует порядковому номеру буквы в алфавите. Например, start = "5", будет соответствовать букве "E" и список начнётся с неё. Если задано значение start = "27" , список становится двухзначным ("27" = "AA", "28" = "AB", "29" = "AC"...).
+</td>
+    </tr>
+
+    <tr>
+        <td class="td-vcenter">type</td>
+        <td>1 <br/>A<br/>a<br/>I<br/>i</td>
+        <td class="td-vcenter">
+Определяет вид маркера списка. 
+</td>
+    </tr>
+
+    </tbody>
+
+</table> </br>
+
+<p>Тег &lt;ol&gt; поддерживает также <a href= "/uchebnik-html/globalnye-atributy.html">глобальные атрибуты</a>  и <a href= "/uchebnik-html/atributy-sobytii.html">атрибуты событий</a>.</p>
+
+
+
+
+
+
+																
+	
+						
+
+			<p><div class="how-style">
+  <h2>Как добавить стиль к тегу  &lt;ol&gt; ?</h2>
+
+<h3>Распространенные свойства для изменения визуальной насыщенности/выделения/размера текста внутри тега &lt;ol&gt;:</h3>
+<ul>
+<li><a href="/uchebnik-css/font-style.html">CSS свойство font-style</a> задает стиль шрифта: normal | italic | oblique | initial | inherit</li>
+<li><a href="/uchebnik-css/font-family.html">CSS свойство font-family</a> создает приоритетный список названий семейства шрифтов и/или общее имя шрифтов для выбранных элементов. </li>
+<li><a href="/uchebnik-css/font-size.html">CSS свойство font-size</a> задает размер щрифта.</li>
+<li><a href="/uchebnik-css/css-svoistvo-font-weight.html">CSS свойство font-weight</a> устанавливает насыщенность шрифта. </li>
+<li><a href="/uchebnik-css/css-svoistvo-text-transform.html">CSS свойство text-transform </a> задает регистр текста (заглавные или строчные буквы).
+</li>
+<li><a href="/uchebnik-css/css-svoistvo-text-decoration.html">CSS свойство text-decoration</a> устанавливает оформление текста. Оно является сокращенным свойством для text-decoration-line, text-decoration-color, text-decoration-style.</li>
+</ul>
+
+<h3>Цвет текста внутри тега &lt;ol&gt;:</h3>
+<ul>
+<li><a href="/uchebnik-css/css-svoistvo-color.html">CSS свойство color</a> определяет цвет контента и оформления текста. </li>
+<li><a href="/uchebnik-css/background-color.html">CSS свойство background-color</a> устанавливает фоновый цвет элемента.</li>
+</ul>
+
+<h3>Стили форматирования текста для тега &lt;ol&gt;:</h3>
+<ul>
+<li><a href="/uchebnik-css/css-svoistvo-text-indent.html">CSS свойство text-indent</a> указывает размер отступа первой строки в текстовом блоке.</li>
+<li><a href="/uchebnik-css/css-svoistvo-text-overflow.html">CSS свойство text-overflow</a> указывает, как будет отображаться пользователю строчный текст, выходящий за границы блока. 
+</li>
+<li><a href="/uchebnik-css/css-svoistvo-white-space.html">CSS свойство white-space</a> указывает, как будут отображены пробелы внутри элемента. </li>
+<li><a href="/uchebnik-css/css-svoistvo-word-break.html">CSS свойство word-break</a> указывает перенос строки.</li>
+</ul> 
+
+<h3>Другие свойства для тега  &lt;ol&gt;:</h3>
+<ul>
+<li><a href="/uchebnik-css/css-svoistvo-text-shadow.html">CSS свойство text-shadow</a> добавляет тень к тексту.</li>
+<li><a href="/uchebnik-css/css-svoistvo-text-align-last.html">CSS свойство text-align-last</a> выравнивает последнюю строку текста.</li>
+<li><a href="/uchebnik-css/css-svoistvo-line-height.html">CSS свойство line-height</a> устанавливает межстрочный интервал.</li>
+<li><a href="/uchebnik-css/css-svoistvo-letter-spacing.html">CSS свойство letter-spacing </a> устанавливает расстояние между буквами/символами в тексте.
+</li>
+<li><a href="/uchebnik-css/css-svoistvo-word-spacing.html">CSS свойство word-spacing</a>  устанавливает расстояние между словами в тексте.
+ </li>
+</ul>
+</div></p>
+	
+
+
+
+
+									</div>
+
+		<hr class="mt-4" />
+
+			<div class="my-8">
+		<div class="prose lg:prose-lg max-w-none">
+			<h2>Поддержка браузера</h2>
+		</div>
+		<table class="mt-2.5 w-full border border-gray-300 text-center">
+			<thead>
+			<tr class="border-b">
+				<th class="p-2 border-r">
+					<img src="/build/images/bw_chrome.svg"
+					     class="inline"
+					     alt="chrome"
+					     width="24"
+					     height="24" />
+				</th>
+
+									<th class="p-2 border-r">
+						<img src="/build/images/bw_edge.svg"
+						     class="inline"
+						     alt="edge"
+						     width="24"
+						     height="24" />
+					</th>
+								<th class="p-2 border-r">
+					<img src="/build/images/bw_firefox.svg"
+					     class="inline"
+					     alt="firefox"
+					     width="24"
+					     height="24" />
+				</th>
+				<th class="p-2 border-r">
+					<img src="/build/images/bw_safari.svg"
+					     class="inline"
+					     alt="safari"
+					     width="24"
+					     height="24" />
+				</th>
+				<th class="p-2">
+					<img src="/build/images/bw_opera.svg"
+					     class="inline"
+					     alt="opera"
+					     width="24"
+					     height="24" />
+				</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr class="bg-gray-100">
+				<td class="p-2 border-r">
+											<span class="text-green-600 text-lg">&#10003;</span>
+									</td>
+									<td class="p-2 border-r">
+													<span class="text-green-600 text-lg">&#10003;</span>
+											</td>
+								<td class="p-2 border-r">
+											<span class="text-green-600 text-lg">&#10003;</span>
+									</td>
+				<td class="p-2 border-r">
+											<span class="text-green-600 text-lg">&#10003;</span>
+									</td>
+				<td class="p-2">
+											<span class="text-green-600 text-lg">&#10003;</span>
+									</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+
+
+		
+	</div>
+</div>
+
+
+				<div class="flex justify-between my-8 print:hidden">
+							<a href="/uchebnik-html/html-teg-object.html"
+				   class="chapter-bottom-nav btn btn-blue"
+				   aria-label="Previous chapter">❮ Назад</a>
+			
+							<a href="/uchebnik-html/html-teg-optgroup.html"
+				   class="chapter-bottom-nav btn btn-blue">Вперед ❯</a>
+					</div>
+
+		<div class="prose lg:prose-lg max-w-none">
+			<div class="mt-5">
+									<div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Snippet bottom -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1441002000"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+							</div>
+
+						<div class="related-resources"><h3>Похожие ресурсы</h3><ul><li><a href="https://ru.w3docs.com/uchebnik-html/html-teg-ul.html">
+								HTML тег &lt;ul&gt;
+							</a></li><li><a href="https://ru.w3docs.com/uchebnik-html/html-spiski.html">
+								HTML списки
+							</a></li><li><a href="https://ru.w3docs.com/uchebnik-html/html-teg-li.html">
+								HTML тег &lt;li&gt;
+							</a></li><li><a href="https://ru.w3docs.com/uchebnik-css/css-svoistvo-list-style.html">
+								CSS свойство list-style
+							</a></li><li><a href="https://ru.w3docs.com/uchebnik-css/css-svoistvo-list-style-type.html">
+								CSS свойство list-style-type
+							</a></li></ul></div>
+			<div class="flex justify-center print:hidden">
+	<div class="mt-5 border border-gray-300 rounded-lg text-center lg:w-2/3">
+		<div id="feedback-form-container" class="hidden p-10 p-md-20">
+			<strong class="text-2xl mb-8">Приносим извинения за это</strong>
+			<input type="hidden" name="path" value="/feedback/vote-no/557/2" />
+			<input type="hidden" name="token"  value="6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr" />
+			<div class="text-left">
+				<label class="mb-2" for="feedback-message">Как мы можем улучшить это?</label>
+				<textarea id="feedback-message" name="message" required class="h-32 p-2 w-full"></textarea>
+				<div class="mt-2">
+					<input class="btn btn-blue" type="submit" value="Submit" />
+				</div>
+			</div>
+
+			<div class="hidden success-container">
+				<h4 class="p-5 mb-8">Спасибо за ваш отзыв!</h4>
+			</div>
+		</div>
+
+		<div id="feedback-message-thanks" class="hidden py-16 text-2xl">
+			Спасибо за ваш отзыв!
+		</div>
+
+		<div id="feedback-action-container" class="p-8">
+			<div class="mb-8 block text-2xl">Считаете ли это полезным?</div>
+			<div>
+				<button
+						id="feedback-positive-btn"
+						class="btn btn-outline">
+					Да
+				</button>
+				<button
+						id="feedback-negative-btn"
+						class="btn btn-outline">
+					Нет
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script async src="https://www.google.com/recaptcha/api.js?render=6Le8frkUAAAAAGo4hSFtQEzgbMVM0KdMNM8M7EKr"></script>
+
+		</div>
+	</div>
+				</div>
+			</div>
+
+										<div class="col-span-3 hidden md:block pl-2 pt-8 border-l border-gray-200">
+								<div>
+    <div style="min-height: 600px;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Right Side 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="1048956047"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  <div class=" relative py-5 text-center" style="height:100%">
+        <div class="quizzes-new" id="aside-quiz-block" style="margin: 20px auto; max-width: 200px;">
+  <a class="how-to" href="/quiz/"  style="display: block;
+text-align: center;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #ffffff;
+background: #202131;
+padding: 10px 20px;
+font-family: Poppins, sans-serif;
+font-style: normal;">
+  Тесты
+  </a>
+  <ul class="list" style="padding: 10px 0;   background: #F3F3F3;    display: flex;  align-items: center;  flex-direction: column;    gap: 10px;">
+    <li>
+      <a href="/quiz-start/osnovy-html">
+      Основы HTML
+      </a>
+    </li>
+ <li>
+      <a href="/quiz-start/osnovy-css">     
+      Основы CSS
+      </a>
+    </li>
+ <li>
+      <a href="/quiz-start/osnovy-javascript">
+      Основы Javascript
+      </a>
+    </li>
+  <li>
+      <a href="/quiz-start/osnovy-php">
+      Основы PHP
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/osnovy-es6">         
+      Основы ES6
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/osnovy-typescript">         
+      Основы TypeScript
+      </a>
+    </li>
+<li>
+      <a href="/quiz-start/osnovy-angular">        
+      Основы Angular
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/osnovy-react">         
+      Основы React
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/osnovy-sass">
+      Основы Sass
+      </a>
+    </li>
+    <li>
+      <a href="/quiz-start/osnovy-vue-js">         
+      Основы Vue.js
+      </a>
+    </li>
+   <li>
+      <a href="/quiz-start/osnovy-git">         
+      Основы Git
+      </a>
+    </li>
+       <li>
+      <a href="/quiz-start/osnovy-sql">         
+      Основы SQL
+      </a>
+    </li>
+  </ul>
+</div>
+  </div>
+</div>
+
+ <div style="position: sticky;  top: 100px;  margin-bottom: 35px;">
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1328390942002432"
+     crossorigin="anonymous"></script>
+<!-- Content Sticky -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1328390942002432"
+     data-ad-slot="8443800953"
+     data-ad-format="vertical"
+     ></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      </div>
+					</div>
+					</div>
+
+					<div class="bg-blue-steel text-white print:hidden">
+				<footer>
+	<div class="p-6 inline-block lg:pl-20 w-full lg:w-11/12">
+
+		<div class="pb-4">
+			        <ul class="flex flex-wrap justify-start sm:justify-evenly gap-12 md:gap-16">
+            
+                            <li class="first">        <span class="text-blue-500 mb-4 block text-lg">Тесты</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/quiz-start/osnovy-html">Основы HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-css">Основы CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-javascript">Основы Javascript</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-php">Основы PHP</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-es6">Основы ES6</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-typescript">Основы TypeScript</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-angular">Основы  Angular</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-react">Основы  React</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-sass">Основы  Sass</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-vue-js">Основы  Vue.js</a>        
+    </li>
+
+    
+                <li>        <a href="/quiz-start/osnovy-git">Основы  Git</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/quiz-start/osnovy-sql">Основы  SQL</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Сниппеты</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/snippets/git.html">Как Git</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/angularjs.html">Как AngularJs</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/linux.html">Как Linux</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/html.html">Как HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/css.html">Как CSS</a>        
+    </li>
+
+    
+                <li>        <a href="/snippets/javascript.html">Как JavaScript</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/snippets/java.html">Как Java</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Разделы</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/uchebnik-html.html">Учебник HTML</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/uchebnik-css.html">Учебник CSS</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li>        <span class="text-blue-500 mb-4 block text-lg">Инструменты</span>                <ul class="flex flex-col gap-1.5 menu_level_1">
+            
+                <li class="first">        <a href="/keyboard">Оптимизатор изображений</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/color-picker">Color Picker</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/html-encoder/">Кодер/Декодер HTML</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/editor">HTML редактор</a>        
+    </li>
+
+    
+                <li>        <a href="/css3-maker/border-radius">CSS Генератор</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/password-generator">Генератор паролей</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/image-base64">Base 64</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/code-diff/">Сравнение кодов</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+    
+                            <li class="last">        <span class="text-blue-500 mb-4 block text-lg">Строковые функции</span>                <ul class="flex flex-col gap-2 menu_level_1">
+            
+                <li class="first">        <a href="/tools/string-length-calculator">Вычисление длины строки</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-md5-generator">Строка для MD5 генератора хеша</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-sha256-generator">Строка для SHA-256 хеш калькулятора</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-revers">Реверс строки</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-encoder">URL кодер</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-url-decoder">URL декодер</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-encoder">Base 64 кодер</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-base64-decoder">Base 64 декодер</a>        
+    </li>
+
+    
+                <li>        <a href="/tools/string-remove-extra-spaces">Удаление лишних пробелов</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/tools/string-convert-lowercase">Конвертер нижнего регистра</a>        
+    </li>
+
+
+    </ul>
+
+    </li>
+
+
+    </ul>
+
+		</div>
+
+		<div class="py-8 border-t border-gray-700 flex gap-4 flex-col md:flex-row items-center md:justify-between">
+			<div>
+				        <ul class="flex gap-4">
+            
+                <li class="first">        <a href="/about-us">О нас</a>        
+    </li>
+
+    
+                <li class="last">        <a href="/privacy-policy">Политика конфиденциальности W3Docs</a>        
+    </li>
+
+
+    </ul>
+
+			</div>
+
+			<a href="/" aria-label="w3docs homepage">
+				<img src="/build/images/footer-logo.png"
+				     alt="logo"
+				     width="111"
+				     height="30" />
+
+			</a>
+
+			<div>
+				<strong>Присоединяйтесь к нам</strong>
+				<a id="follows-fb" href="https://www.facebook.com/w3docs" target="_blank"
+				   aria-label="follow on facebook" rel="noopener"></a>
+
+				<a id="follows-tt" href="https://twitter.com/w3docs" target="_blank"
+				   aria-label="follow on twitter"
+				   rel="noopener"></a>
+			</div>
+
+		</div>
+		<div class="pt-8 text-center border-t border-gray-700">
+			<small>Company &copy; W3docs. All rights reserved.</small>
+		</div>
+	</div>
+</footer>
+
+			</div>
+			</div>
+
+</div>
+</body>
+</html>
